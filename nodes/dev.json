@@ -1,6 +1,7 @@
 {
   "run_list": [
     "recipe[server-setup]",
+    "recipe[ruby]",
     "recipe[users]"
   ]
 }
